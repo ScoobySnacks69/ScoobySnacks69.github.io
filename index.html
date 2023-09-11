@@ -3,53 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigmasplav - Ваш специалист по 3D-печати</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Подключите файл стилей styles.css -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yourname.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- Шапка сайта -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#portfolio">Портфолио</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">yourname.</div><br>
+    <div id="links">
+        <a href="#skills">skills</a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+    </div>
+    </div>
 
-    <!-- Секция "О нас" -->
-    <section id="about">
-        <h1>О нас</h1>
-        <p>Мы - команда профессионалов в области 3D-печати. Наша миссия - превратить ваши идеи в реальность.</p>
-    </section>
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            if you're reading this, that mean's you can read<br>
+            <button class="btn_one">haha ok</button>
+        </div>
+    </div>
+    </center>
 
-    <!-- Секция "Услуги" -->
-    <section id="services">
-        <h2>Наши услуги</h2>
-        <ul>
-            <li>3D-моделирование</li>
-            <li>Прототипирование</li>
-            <li>Массовая 3D-печать</li>
-            <li>Индивидуальный дизайн</li>
-        </ul>
-    </section>
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>skills.</h1>   
+                 <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate. Sed tortor enim, rhoncus vel mauris vitae, elementum condimentum augue. Donec fermentum lobortis lectus, in feugiat turpis faucibus et. Pellentesque luctus metus vitae augue lobortis sagittis vitae sit amet enim. Morbi egestas velit ac arcu fermentum lacinia. Nullam eget hendrerit neque. Cras et laoreet ante. Vivamus condimentum euismod commodo. Nulla pulvinar, turpis vitae condimentum tempor, ex ex eleifend quam, et maximus sapien mi sed est. Donec elit mi, dictum nec magna quis, mollis sollicitudin ligula. Maecenas ullamcorper ante vel ullamcorper mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                        </p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>works.</h1>
 
-    <!-- Секция "Портфолио" -->
-    <section id="portfolio">
-        <h2>Портфолио</h2>
-        <!-- Здесь можно разместить изображения ваших работ -->
-    </section>
+                 <div class="project">
+                 <h2>project title 1</h2>
+                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.</div>
+                 <button class="btn_one">visit project</button>
+                </div>
 
-    <!-- Секция "Контакты" -->
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Свяжитесь с нами по адресу: sigmasplav@example.com</p>
-    </section>
+                <div class="project">
+                 <h2>project title 2</h2>
+                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.
+                 </div>
+                 <button class="btn_one">visit project</button>
+                 <button class="btn_two">code</button>
+                </div>
 
-    <!-- Подвал сайта -->
-    <footer>
-        <p>&copy; 2023 Sigmasplav. Все права защищены.</p>
-    </footer>
+             </div>
+         
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social"><i class="fas fa-phone"></i></a>
+                    <a class="btn_social"><i class="fas fa-at"></i></a>
+                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+    </div>
+    <div id="footer">
+        made on earth by a human <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
 </body>
 </html>
