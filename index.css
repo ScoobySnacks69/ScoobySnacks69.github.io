@@ -130,7 +130,7 @@
 }
 .skill-info h2 {
     font-size: 20px;
-    margin: 0;
+    margin: 5px;
 }
 .skill-info p {
     font-size: 16px;
@@ -278,12 +278,19 @@
         width:90%;
         font-size:30px;
     }
+    .skill {
+        flex-direction: column; /* Один столбец на мобильных устройствах */
+    }
     .skill-item {
-    margin: 0;
-    text-align: center;
+        flex-basis: 100; /* Один элемент на всю ширину */
+        margin-right: 0; /* Убираем отступ */
+        margin-bottom: 0px; /* Добавляем вертикальный отступ между элементами */
+    }
+  .skill-item img {
+    max-width:100%;
   }
-    .skill-item img {
-    margin: 0;
+  .skill-info {
+    margin-top: 10px;
   }
     .btn_one {
         font-size:14px;
@@ -300,11 +307,10 @@
         width:92%;
     }
   #contact-info p {
-    margin: 0;
-    text-align: center;
+    width:92%
   }
   #contact-info p i {
-    margin-right: 5px;
+    width:92%
   }
     .btn_social {
         font-size:14px;
