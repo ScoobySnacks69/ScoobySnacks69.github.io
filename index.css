@@ -278,6 +278,13 @@
         width:90%;
         font-size:30px;
     }
+    .skill-item {
+    margin: 0;
+    text-align: center;
+  }
+    .skill-item img {
+    margin: 0;
+  }
     .btn_one {
         font-size:14px;
         padding:8px 20px;
@@ -292,6 +299,13 @@
     #contact form textarea {
         width:92%;
     }
+  #contact-info p {
+    margin: 0;
+    text-align: center;
+  }
+  #contact-info p i {
+    margin-right: 5px;
+  }
     .btn_social {
         font-size:14px;
         margin:10px;
